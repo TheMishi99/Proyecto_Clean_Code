@@ -43,10 +43,12 @@ NODE_ENV=development
 
 ### Running the Application
 
-Development mode:
+First move to `apps/backend`
+
+Run tests:
 
 ```bash
-pnpm dev
+pnpm test
 ```
 
 Build:
@@ -55,10 +57,10 @@ Build:
 pnpm build
 ```
 
-Run tests:
+Start:
 
 ```bash
-pnpm test
+pnpm start
 ```
 
 ## Environment Variables
@@ -69,8 +71,8 @@ The following environment variables are required:
 | ---------- | ------------------------------------ | --------------------- |
 | PORT       | Port number for the API              | 3000                  |
 | JWT_SECRET | Secret key for JWT tokens            | -                     |
-| FRONT_URL  | Frontend application URL             | http://localhost:5173 |
-| NODE_ENV   | Environment (development/production) | development           |
+| FRONT_URL  | Frontend application URL             |                       |
+| NODE_ENV   | Environment (development/production) | -                     |
 
 ## API Endpoints
 
